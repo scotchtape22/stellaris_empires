@@ -3307,7 +3307,7 @@
 		"civic_exalted_priesthood"
 		"civic_philosopher_king"
 	}
-	origin="origin_shoulders_of_giants"
+	origin="origin_lost_colony"
 }
 "Unicode Intergalatic Exterminator"
 ={
@@ -3503,4 +3503,67 @@
 		"civic_byzantine_bureaucracy"
 	}
 	origin="origin_post_apocalyptic"
+}
+"Ymacera Fleet"
+={
+	key="Ymacera Fleet"
+	ship_prefix="Good Ship"
+	species={
+		class="MOL"
+		portrait="mol11"
+		name="Ymacera"
+		plural="Ymacerans"
+		adjective="Ymaceran"
+		name_list="HUM1"
+		trait="trait_void_dweller_1"
+		trait="trait_quick_learners"
+		trait="trait_unruly"
+		trait="trait_very_strong"
+	}
+	name="Ymacera Fleet"
+	adjective="Ymaceran"
+	authority="auth_oligarchic"
+	government="gov_war_council"
+	planet_name="Sebannica"
+	planet_class="pc_ocean"
+	system_name="Sebto-Ka"
+	initializer="void_dweller_system"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="pirate"
+			file="flag_pirate_3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"black"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Rhethana"
+		portrait="mol11"
+		texture=0
+		hair=0
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_distinguished_admiralty"
+		"civic_warrior_culture"
+	}
+	origin="origin_void_dwellers"
 }
